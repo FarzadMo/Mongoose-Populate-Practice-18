@@ -1,0 +1,24 @@
+{
+  "name": "Mongoose-Populate-Practice-18",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fred1525/Mongoose-Populate-Practice-18.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fred1525/Mongoose-Populate-Practice-18/issues"
+  },
+  "homepage": "https://github.com/fred1525/Mongoose-Populate-Practice-18#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.7.12"
+  }
+}

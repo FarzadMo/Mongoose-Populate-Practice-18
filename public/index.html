@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Mongoose Populate Practice</title>
+  </head>
+  <body>
+    <h1>Enter a book into the library</h1>
+    <form action="/submit" method="post">
+      <input type="text" name="author" placeholder="Author" />
+      <input type="text" name="title" placeholder="Title" />
+      <input type="submit" />
+      <br />
+      <a href="/books">See your books!</a>
+      <a href="/library">See your library!</a>
+      <a href="/populated">See your library, populated with books!</a>
+    </form>
+  </body>
+</html>
