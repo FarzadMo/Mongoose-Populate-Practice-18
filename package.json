@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,10 @@
   },
   "homepage": "https://github.com/fred1525/Mongoose-Populate-Practice-18#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.3.1",
     "express": "^4.17.1",
+    "express-session": "^1.17.0",
     "mongoose": "^5.7.12"
   }
 }
