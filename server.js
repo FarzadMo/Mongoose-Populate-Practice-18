@@ -54,7 +54,6 @@ app.get("/library", function(req, res) {
       res.json(dbLibrary);
     })
     .catch(function(err) {
-      t;
       res.json(err);
     });
 });
